@@ -28,8 +28,8 @@ we propose SoberDSE, an automated framework featuring:
   |   +--layers.py
   |   +--model_parse.py
   |--SoberDSE                        # the implementation details of SoberDSE
-  |--Data                            
-  |--saved_models   
+  |   +--Data                            
+  |   +--saved_models   
   |   +--data_gen.py
   |   +--Sober.py
   |--save_models_and_data       # save model weights and generate the files required for CDFGs
