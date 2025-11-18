@@ -27,10 +27,11 @@ we propose SoberDSE, an automated framework featuring:
   |   +--action_gumbel_layer.py
   |   +--layers.py
   |   +--model_parse.py
-  |--SoberDSE                        # the implementation details of SoberDSE 
-  |   +--dse.py
-  |   +--LLM.py
-  |   +--prompt.py
+  |--SoberDSE                        # the implementation details of SoberDSE
+  |--Data                            
+  |--saved_models   
+  |   +--data_gen.py
+  |   +--Sober.py
   |--save_models_and_data       # save model weights and generate the files required for CDFGs
   |--src                             # the source codes for defining and training the model
   |   +--config.py
